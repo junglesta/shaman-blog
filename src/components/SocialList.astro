@@ -1,7 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
 
-/** 
+/**
 	Uses https://www.astroicon.dev/getting-started/
 	Find icons via guide: https://www.astroicon.dev/guides/customization/#open-source-icon-sets
 */
@@ -12,31 +12,16 @@ const socialLinks: {
 	name: string;
 }[] = [
 	{
-		friendlyName: "Github",
-		link: "https://github.com/chrismwilliams/astro-cactus",
-		name: "mdi:github",
-	},
-	{
-		friendlyName: "Mastodon",
-		link: "#",
-		name: "mdi:mastodon",
-	},
-	{
-		friendlyName: "LinkedIn",
-		link: "#",
-		name: "mdi:linkedin",
-	},
-	{
 		friendlyName: "email",
 		isWebmention: true,
-		link: "mailto:astro-cactus@chriswilliams.dev",
+		link: "mailto:shaman@junglestar.org",
 		name: "mdi:email",
 	},
 ];
 ---
 
 <div class="flex flex-wrap items-end gap-x-4">
-	<p>Find me on</p>
+	<p>Write me, I will respond publicly in this blog:</p>
 	<ul class="flex flex-1 items-center gap-x-2 sm:flex-initial">
 		{
 			socialLinks.map(({ friendlyName, isWebmention, link, name }) => (
