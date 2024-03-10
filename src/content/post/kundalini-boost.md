@@ -2,7 +2,7 @@
 title: "How do i obtain a protein boost for my male kundalini?"
 description: "Bro, just chill with a bowl of edamame or munch on some almonds. Nature's protein bars, no gym bro's subscription needed!"
 publishDate: "5 jan 2024"
-tags: ["natural", "trip", "kundalini", "wisdom"]
+tags: ["natural", "trip", "kundalini", "wisdom", "stoked", "chill"]
 ---
 
 ## TLDR

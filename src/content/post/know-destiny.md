@@ -2,7 +2,7 @@
 title: "How to know what is my destiny?"
 description: "Bro, figuring out your destiny is like trying to catch the perfect wave with a paper boat. You might not nail it on the first try, but the vibe?"
 publishDate: "10 jan 2024"
-tags: ["destiny", "journey", "destination", "enjoy"]
+tags: ["destiny", "journey", "destination", "enjoy", "stoked"]
 ---
 
 ## TLDR
@@ -21,13 +21,13 @@ _Find Your Flavor:_ Notice what makes you come back for seconds. That’s your h
 
 _Cook Your Own Dish:_ Once you know what you love, start cooking. Mix your passions, skills, and values into something uniquely yours.
 
-Remember, destiny isn't pre-served; it’s self-made, with a dash of fate and a sprinkle of choices. So, grab your metaphorical surfboard and ride the waves of life. Who knows? You might just invent the next big flavor in the buffet of existence. Stay curious, and keep your taste buds ready for adventure.
+Remember, destiny isn't pre-served. It’s self-made, with a dash of fate and a sprinkle of choices. So, grab your metaphorical surfboard and ride the waves of life. Who knows? You might just invent the next big flavor in the buffet of existence. Stay curious, and keep your taste buds ready for adventure.
 
 ### MORE WISDOM BUFFET
 
 Alright, since you're all in for reading more, let's sprinkle a bit more seasoning on this wisdom stew.
 
-#### The Essence of Your Path D
+#### The Essence of Your Path
 
 Imagine life as an endless ocean, and you're surfing on the waves of destiny with a neon board. Sometimes, you'll ride a gnarly wave straight to the beach, feeling like the king of the world. Other times, you'll wipe out and get a mouthful of salty water. Both are part of the surf, my friend.
 

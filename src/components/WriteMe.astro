@@ -1,0 +1,26 @@
+---
+import { Icon } from "astro-icon/components";
+
+/**
+	Uses https://www.astroicon.dev/getting-started/
+	Find icons via guide: https://www.astroicon.dev/guides/customization/#open-source-icon-sets
+*/
+
+const mailTo = "mailto:shaman@junglestar.org";
+const name = "mdi:email";
+---
+
+<div class="flex flex-wrap items-end gap-x-2">
+	<p class="title text-xl uppercase">Write</p>
+	<a
+		class="inline-block p-1 sm:hover:text-link"
+		href={mailTo}
+		rel={`noopener noreferrer`}
+		target="_blank"
+	>
+		<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name={name} />
+		<span class="sr-only">Email</span>
+	</a>
+
+	<p class="title text-xl uppercase">I'll respond here.</p>
+</div>

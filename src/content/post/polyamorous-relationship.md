@@ -1,8 +1,8 @@
 ---
-title: "My wife asked me go polyamorous relationship, how to decide?"
+title: "My wife asked me to go polyamorous, how to decide?"
 description: "Bro, that's like asking if you're cool with adding more spices to your laksa. Could be exciting or too hot to handle!"
 publishDate: "17 dec 2023"
-tags: ["solo", "comfy", "exciting", "spices"]
+tags: ["solo", "comfy", "exciting", "spices", "oblivion", "friend"]
 ---
 
 ## TLDR

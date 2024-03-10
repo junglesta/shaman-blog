@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
 	title: "Free spritual help",
 	// Meta property used as the default description meta property
 	description:
-		"Debatable free life awarness tips, in metaphorical pills, upond request. Write me, i'd be pleased to share wisdom",
+		"Free life awarness tips, metaphorical wisdom pills, upon request. Write me, I'll be happy to share wisdom",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "en-GB",
 	// Meta property, found in src/components/BaseHead.astro L:42
@@ -38,7 +38,7 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		path: "/about/",
 	},
 	{
-		title: "Blog",
+		title: "Answers",
 		path: "/posts/",
 	},
 ];

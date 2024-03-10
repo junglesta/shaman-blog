@@ -2,7 +2,7 @@
 title: "How do i stop all that noise in my head?"
 description: "Bro, it's like trying to silence the monkeys at a banana festival. Just let them party till they're all partied out."
 publishDate: "11 feb 2024"
-tags: ["silence", "meditation", "breath", "thoughts"]
+tags: ["silence", "meditation", "breath", "thoughts", "monkeys", "chill"]
 ---
 
 ## TLDR

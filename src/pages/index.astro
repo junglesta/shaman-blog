@@ -1,5 +1,5 @@
 ---
-import SocialList from "@/components/SocialList.astro";
+import WriteMe from "@/components/WriteMe.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import PageLayout from "@/layouts/Base.astro";
 import { getAllPosts, sortMDByDate } from "@/utils";
@@ -11,16 +11,16 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 <PageLayout meta={{ title: "Shaman Monster" }}>
 	<section>
-		<h1 class="title mb-6">Aloha Spiritual being.</h1>
+		<h1 class="title mb-6 uppercase">Aloha Spiritual being.</h1>
 		<p class="mb-4">
-			I’m Shaman Monster, yup... that's how people call me, so i guess they're right. Acceptance is
-			the way to rise above.
+			Here is Shaman Monster, yup... that's how people call me, so I guess they're right. Acceptance
+			is the way to rise above.
 		</p>
-		<p class="mb-4">I made this blog to answer your enquiries.</p>
-		<SocialList />
+		<p class="mb-4">This blog exists to answer your enquiries.</p>
+		<WriteMe />
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Wisdom Shared</h2>
+		<h2 class="title mb-4 text-xl uppercase">Wisdom Shared</h2>
 		<ul class="space-y-4">
 			{
 				allPostsByDate.map((p) => (
@@ -29,6 +29,8 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 					</li>
 				))
 			}
+
+			<li><a class="ms-auto py-2 sm:hover:text-accent" href="/posts">See all answers →</a></li>
 		</ul>
 	</section>
 </PageLayout>

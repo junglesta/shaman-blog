@@ -34,7 +34,7 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 	)
 }
 {data.draft ? <span class="text-base text-red-500">(Draft)</span> : null}
-<h1 class="title mb-3 sm:mb-1">
+<h1 class="title mb-3 uppercase sm:mb-1">
 	{data.title}
 </h1>
 <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
@@ -74,11 +74,14 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 			{data.tags.map((tag, i) => (
 				<>
 					<a
-						aria-label={`View more blogs with the tag ${tag}`}
+						aria-label={`View more with the tag ${tag}`}
 						class="cactus-link inline-block before:content-['#']"
 						data-pagefind-filter="tag"
 						href={`/tags/${tag}/`}
-					>{tag}</a>{i < data.tags.length - 1 && ", "}
+					>
+						{tag}
+					</a>
+					{i < data.tags.length - 1 && ", "}
 				</>
 			))}
 		</div>

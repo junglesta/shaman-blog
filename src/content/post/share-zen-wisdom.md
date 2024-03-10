@@ -1,8 +1,8 @@
 ---
 title: "Guide me with some Zen wisdom! "
 description: "Zen says Don't just do something, sit there! It's like, chill and let the universe vibe on its own, ya know? Catch the wisdom?"
-publishDate: "8 May 2023"
-tags: ["Zen", "wisdom"]
+publishDate: "8 oct 2023"
+tags: ["zen", "wisdom", "mindful", "laugh", "chill", "meditation"]
 ---
 
 ## TLDR
