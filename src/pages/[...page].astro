@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths, Page } from "astro";
 import type { CollectionEntry } from "astro:content";
-
+import WriteMe from "@/components/WriteMe.astro";
 import Pagination from "@/components/Paginator.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import PageLayout from "@/layouts/Base.astro";
@@ -23,7 +23,7 @@ const { page, uniqueTags } = Astro.props;
 
 const meta = {
 	description: "Ready my collection of posts and the things that interest me",
-	title: "Wisdom Shared",
+	title: "Shaman Monster Wisdom ",
 };
 
 const paginationProps = {
@@ -43,7 +43,17 @@ const paginationProps = {
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title mb-6 uppercase">Wisdom Shared</h1>
+	<section>
+		<h1 class="title mb-6 uppercase">Aloha Spiritual being.</h1>
+		<p class="mb-4">
+			Here is Shaman Monster, yup... that's how people call me, so I guess they're right. Acceptance
+			is the way to rise above.
+		</p>
+		<p class="mb-4">This blog exists to answer your enquiries.</p>
+		<WriteMe />
+	</section>
+
+	<h1 class="title mb-6 mt-16 uppercase">Wisdom Shared</h1>
 	<div class="grid gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8">
 		<section aria-label="Blog post list">
 			<ul class="space-y-8 text-start">

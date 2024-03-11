@@ -1,13 +1,10 @@
 ---
-import { menuLinks } from "@/site-config";
-
 import Search from "../Search.astro";
 import ThemeToggle from "../ThemeToggle.astro";
-
 const url = new URL(Astro.request.url);
 ---
 
-<header class="group relative mb-28 flex items-center sm:ps-[4.5rem]" id="main-header">
+<header class="group relative mb-28 flex items-center" id="main-header">
 	<div class="flex sm:flex-col">
 		<a
 			aria-current={url.pathname === "/" ? "page" : false}
@@ -15,45 +12,27 @@ const url = new URL(Astro.request.url);
 			href="/"
 		>
 			<svg
+				class="logo"
 				aria-hidden="true"
-				class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
-				fill="none"
 				focusable="false"
-				viewBox="0 0 272 480"
 				xmlns="http://www.w3.org/2000/svg"
+				xml:space="preserve"
+				viewBox="0 0 512.002 512.002"
 			>
-				<title>Logo</title>
-				<path
-					d="M181.334 93.333v-40L226.667 80v40l-45.333-26.667ZM136.001 53.333 90.667 26.667v426.666L136.001 480V53.333Z"
-					fill="#B04304"></path>
-				<path
-					d="m136.001 119.944 45.333-26.667 45.333 26.667-45.333 26.667-45.333-26.667ZM90.667 26.667 136.001 0l45.333 26.667-45.333 26.666-45.334-26.666ZM181.334 53.277l45.333-26.666L272 53.277l-45.333 26.667-45.333-26.667ZM0 213.277l45.333-26.667 45.334 26.667-45.334 26.667L0 213.277ZM136 239.944l-45.333-26.667v53.333L136 239.944Z"
-					fill="#FF5D01"></path>
-				<path
-					d="m136 53.333 45.333-26.666v120L226.667 120V80L272 53.333V160l-90.667 53.333v240L136 480V306.667L45.334 360V240l45.333-26.667v53.334L136 240V53.333Z"
-					fill="#53C68C"></path>
-				<path d="M45.334 240 0 213.334v120L45.334 360V240Z" fill="#B04304"></path>
+				<g fill="currentColor">
+					<path
+						d="M442.341 199.542a8.895 8.895 0 0 0-5.839-5.276c-29.741-8.456-53.955-1.396-68.383 5.449V87.773c0-23.88-19.428-43.307-43.307-43.307-9.53 0-18.346 3.101-25.505 8.337v-9.497C299.306 19.428 279.878 0 255.999 0s-43.307 19.428-43.307 43.307v9.496c-7.16-5.236-15.974-8.337-25.504-8.337-23.88 0-43.307 19.428-43.307 43.307v111.94c-14.428-6.843-38.649-13.901-68.383-5.447a8.907 8.907 0 0 0-5.215 13.114c.362.608 36.066 61.735 36.066 147.67v7.299c0 82.519 67.134 149.654 149.654 149.654s149.654-67.135 149.654-149.654v-7.299c0-85.935 35.704-147.062 36.061-147.661a8.92 8.92 0 0 0 .623-7.847zm-54.49 155.506v7.299c0 72.703-59.149 131.852-131.852 131.852S124.147 435.05 124.147 362.347v-7.299c0-70.382-22.098-124.042-32.865-146.008 25.966-3.788 45.204 6.193 52.596 10.916v31.992a8.9 8.9 0 0 0 8.901 8.901 8.9 8.9 0 0 0 8.901-8.901V87.773c0-14.064 11.442-25.505 25.505-25.505S212.69 73.71 212.69 87.773v167.184c0 4.916 3.984 8.901 8.901 8.901s8.901-3.985 8.901-8.901V43.307c0-14.064 11.442-25.505 25.505-25.505 14.064 0 25.504 11.442 25.504 25.505v211.65a8.9 8.9 0 0 0 8.901 8.901 8.9 8.9 0 0 0 8.901-8.901V87.773c0-14.064 11.442-25.505 25.505-25.505 14.064 0 25.505 11.442 25.505 25.505v164.176a8.9 8.9 0 0 0 8.901 8.901 8.9 8.9 0 0 0 8.901-8.901v-31.976c7.396-4.687 26.728-14.665 52.593-10.924-10.764 21.968-32.857 75.623-32.857 145.999z"
+					></path>
+					<path
+						d="M347.887 348.062c-24.545-24.543-57.178-38.061-91.888-38.061s-67.344 13.516-91.888 38.061a8.9 8.9 0 0 0 0 12.587c24.544 24.544 57.178 38.061 91.888 38.061s67.342-13.516 91.888-38.061a8.9 8.9 0 0 0 0-12.587zm-91.888 32.847c-26.842 0-52.244-9.366-72.474-26.553 20.23-17.186 45.632-26.553 72.474-26.553 26.841 0 52.244 9.366 72.473 26.553-20.229 17.186-45.631 26.553-72.473 26.553z"
+					></path>
+					<path
+						d="M256 332.335c-12.143 0-22.022 9.878-22.022 22.021 0 12.142 9.879 22.021 22.022 22.021s22.022-9.879 22.022-22.021c0-12.142-9.879-22.021-22.022-22.021zm0 28.484a6.468 6.468 0 0 1-6.461-6.462 6.468 6.468 0 0 1 6.461-6.462 6.469 6.469 0 0 1 6.461 6.462 6.47 6.47 0 0 1-6.461 6.462z"
+					></path>
+				</g>
 			</svg>
 			<span class="text-xl font-bold uppercase sm:text-2xl">Shaman Monster</span>
 		</a>
-		<nav
-			aria-label="Main menu"
-			class="absolute -inset-x-4 top-14 hidden flex-col items-end gap-y-4 rounded-md bg-bgColor/[.85] py-4 text-accent shadow backdrop-blur group-[.menu-open]:z-50 group-[.menu-open]:flex sm:static sm:z-auto sm:-ms-4 sm:mt-1 sm:flex sm:flex-row sm:items-center sm:divide-x sm:divide-dashed sm:divide-accent sm:rounded-none sm:bg-transparent sm:py-0 sm:shadow-none sm:backdrop-blur-none"
-			id="navigation-menu"
-		>
-			{
-				menuLinks.map((link) => (
-					<a
-						aria-current={url.pathname === link.path ? "page" : false}
-						class="px-4 py-4 sm:py-0 sm:hover:underline"
-						data-astro-prefetch
-						href={link.path}
-					>
-						{link.title}
-					</a>
-				))
-			}
-		</nav>
 	</div>
 	<Search />
 	<ThemeToggle />
@@ -124,3 +103,8 @@ const url = new URL(Astro.request.url);
 
 	customElements.define("mobile-button", MobileNavBtn);
 </script>
+<style>
+	.logo {
+		height: 80px;
+	}
+</style>

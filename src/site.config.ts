@@ -38,8 +38,8 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		path: "/about/",
 	},
 	{
-		title: "Answers",
-		path: "/posts/",
+		title: "Privacy",
+		path: "/privacy/",
 	},
 ];
 
