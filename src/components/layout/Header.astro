@@ -8,18 +8,18 @@ const url = new URL(Astro.request.url);
 	<div class="flex sm:flex-col">
 		<a
 			aria-current={url.pathname === "/" ? "page" : false}
-			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+			class="inline-flex items-center hover:saturate-200 sm:relative sm:inline-block"
 			href="/"
 		>
 			<svg
-				class="logo"
+				class="logo hamsa"
 				aria-hidden="true"
 				focusable="false"
 				xmlns="http://www.w3.org/2000/svg"
 				xml:space="preserve"
 				viewBox="0 0 512.002 512.002"
 			>
-				<g fill="currentColor">
+				<g fill="#29bc89">
 					<path
 						d="M442.341 199.542a8.895 8.895 0 0 0-5.839-5.276c-29.741-8.456-53.955-1.396-68.383 5.449V87.773c0-23.88-19.428-43.307-43.307-43.307-9.53 0-18.346 3.101-25.505 8.337v-9.497C299.306 19.428 279.878 0 255.999 0s-43.307 19.428-43.307 43.307v9.496c-7.16-5.236-15.974-8.337-25.504-8.337-23.88 0-43.307 19.428-43.307 43.307v111.94c-14.428-6.843-38.649-13.901-68.383-5.447a8.907 8.907 0 0 0-5.215 13.114c.362.608 36.066 61.735 36.066 147.67v7.299c0 82.519 67.134 149.654 149.654 149.654s149.654-67.135 149.654-149.654v-7.299c0-85.935 35.704-147.062 36.061-147.661a8.92 8.92 0 0 0 .623-7.847zm-54.49 155.506v7.299c0 72.703-59.149 131.852-131.852 131.852S124.147 435.05 124.147 362.347v-7.299c0-70.382-22.098-124.042-32.865-146.008 25.966-3.788 45.204 6.193 52.596 10.916v31.992a8.9 8.9 0 0 0 8.901 8.901 8.9 8.9 0 0 0 8.901-8.901V87.773c0-14.064 11.442-25.505 25.505-25.505S212.69 73.71 212.69 87.773v167.184c0 4.916 3.984 8.901 8.901 8.901s8.901-3.985 8.901-8.901V43.307c0-14.064 11.442-25.505 25.505-25.505 14.064 0 25.504 11.442 25.504 25.505v211.65a8.9 8.9 0 0 0 8.901 8.901 8.9 8.9 0 0 0 8.901-8.901V87.773c0-14.064 11.442-25.505 25.505-25.505 14.064 0 25.505 11.442 25.505 25.505v164.176a8.9 8.9 0 0 0 8.901 8.901 8.9 8.9 0 0 0 8.901-8.901v-31.976c7.396-4.687 26.728-14.665 52.593-10.924-10.764 21.968-32.857 75.623-32.857 145.999z"
 					></path>
@@ -31,50 +31,11 @@ const url = new URL(Astro.request.url);
 					></path>
 				</g>
 			</svg>
-			<span class="text-xl font-bold uppercase sm:text-2xl">Shaman Monster</span>
+			<span class="text-3xl font-bold uppercase">Shaman Monster</span>
 		</a>
 	</div>
 	<Search />
 	<ThemeToggle />
-	<mobile-button>
-		<button
-			aria-expanded="false"
-			aria-haspopup="menu"
-			aria-label="Open main menu"
-			class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden"
-			id="toggle-navigation-menu"
-			type="button"
-		>
-			<svg
-				aria-hidden="true"
-				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0"
-				fill="none"
-				focusable="false"
-				id="line-svg"
-				stroke="currentColor"
-				stroke-width="1.5"
-				viewBox="0 0 24 24"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"
-				></path>
-			</svg>
-			<svg
-				aria-hidden="true"
-				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 text-accent opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100"
-				class="text-accent"
-				fill="none"
-				focusable="false"
-				id="cross-svg"
-				stroke="currentColor"
-				stroke-width="1.5"
-				viewBox="0 0 24 24"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
-			</svg>
-		</button>
-	</mobile-button>
 </header>
 
 <script>
@@ -105,6 +66,6 @@ const url = new URL(Astro.request.url);
 </script>
 <style>
 	.logo {
-		height: 80px;
+		height: 100px;
 	}
 </style>
