@@ -10,15 +10,10 @@ import icon from "astro-icon";
 import expressiveCode from "astro-expressive-code";
 import { expressiveCodeOptions } from "./src/site.config";
 
-import partytown from "@astrojs/partytown";
-
 // https://astro.build/config
 export default defineConfig({
 	// ! Please remember to replace the following site property with your own domain
 	site: "https://shaman.monster",
-	experimental: {
-		contentCollectionCache: true,
-	},
 	markdown: {
 		remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
 		rehypePlugins: [
@@ -44,12 +39,6 @@ export default defineConfig({
 		}),
 		sitemap(),
 		mdx(),
-		partytown({
-			// Example: Add dataLayer.push as a forwarding-event.
-			config: {
-				forward: ["dataLayer.push"],
-			},
-		}),
 	],
 	image: {
 		domains: ["webmention.io"],
@@ -63,6 +52,7 @@ export default defineConfig({
 		},
 	},
 });
+
 function rawFonts(ext: Array<string>) {
 	return {
 		name: "vite-plugin-raw-fonts",

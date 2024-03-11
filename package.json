@@ -1,6 +1,6 @@
 {
 	"name": "theo-cactus",
-	"version": "0.3.0",
+	"version": "0.2.0",
 	"private": false,
 	"scripts": {
 		"dev": "astro dev",
@@ -13,7 +13,6 @@
 	},
 	"dependencies": {
 		"@astrojs/mdx": "2.1.1",
-		"@astrojs/partytown": "^2.0.4",
 		"@astrojs/rss": "4.0.5",
 		"@astrojs/sitemap": "3.1.1",
 		"@astrojs/tailwind": "5.1.0",

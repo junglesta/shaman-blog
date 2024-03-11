@@ -7,7 +7,6 @@ import ThemeProvider from "@/components/ThemeProvider.astro";
 import Footer from "@/components/layout/Footer.astro";
 import Header from "@/components/layout/Header.astro";
 import { siteConfig } from "@/site-config";
-import GoogleAnalytics from "@/scripts/GoogleAnalytics.astro";
 
 interface Props {
 	meta: SiteMeta;
@@ -30,7 +29,5 @@ const {
 			<slot />
 		</main>
 		<Footer />
-
-		<GoogleAnalytics />
 	</body>
 </html>
