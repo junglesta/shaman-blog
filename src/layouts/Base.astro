@@ -1,6 +1,7 @@
 ---
 import type { SiteMeta } from "@/types";
 
+import Junglestar from "@/components/Junglestar.astro";
 import BaseHead from "@/components/BaseHead.astro";
 import SkipLink from "@/components/SkipLink.astro";
 import ThemeProvider from "@/components/ThemeProvider.astro";
@@ -20,6 +21,7 @@ const {
 
 <html lang={siteConfig.lang}>
 	<head>
+		<Junglestar />
 		<BaseHead articleDate={articleDate} description={description} ogImage={ogImage} title={title} />
 	</head>
 	<body>
