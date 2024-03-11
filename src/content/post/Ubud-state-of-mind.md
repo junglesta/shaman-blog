@@ -1,5 +1,5 @@
 ---
-title: "How i get the Ubud state of mind?"
+title: "How I get the Ubud state of mind?"
 description: "To get that Ubud state of mind, chill like a rice terrace in the Balinese sun. It's all about embracing the zen vibes and letting go of the rush-rush"
 publishDate: "01 sep 2023"
 tags: ["bali", "ubud", "yoga", "monkeys", "chill", "zen", "meditation"]
