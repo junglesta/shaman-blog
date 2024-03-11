@@ -1,5 +1,8 @@
 <theme-toggle class="ms-2 sm:ms-4">
-	<button class="relative h-9 w-9 rounded-md p-2 transition-all" type="button">
+	<button
+		class="relative h-9 w-9 rounded-md p-2 ring-zinc-400 transition-all hover:ring-2"
+		type="button"
+	>
 		<span class="sr-only">Dark Theme</span>
 		<svg
 			aria-hidden="true"
@@ -94,8 +97,3 @@
 
 	customElements.define("theme-toggle", ThemeToggle);
 </script>
-<style>
-	button:hover {
-		color: #29bc89;
-	}
-</style>
