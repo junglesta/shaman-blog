@@ -6,7 +6,7 @@ import "@pagefind/default-ui/css/ui.css";
 
 <site-search class="ms-auto" id="search">
 	<button
-		class="flex h-9 w-9 items-center justify-center rounded-md ring-zinc-400 transition-all hover:ring-2"
+		class="flex h-9 w-9 items-center justify-center rounded-md transition-all"
 		data-open-modal
 		disabled
 	>
@@ -200,5 +200,9 @@ import "@pagefind/default-ui/css/ui.css";
 		--pagefind-ui-background: theme("colors.bgColor");
 		--pagefind-ui-border: theme("colors.zinc.400");
 		--pagefind-ui-border-width: 1px;
+	}
+
+	button:hover {
+		color: #29bc89;
 	}
 </style>
