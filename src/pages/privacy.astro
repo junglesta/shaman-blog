@@ -1,8 +1,11 @@
 ---
+import { Image } from "astro:assets";
+import qr from "@/assets/shaman-qr.svg";
 import PageLayout from "@/layouts/Base.astro";
 
 const meta = {
-	description: "I'm a starter theme for Astro.build",
+	description:
+		"I'm like a vault. Your secrets are safe with me. I don't spill the beans, share emails, or your enquieries because I literally don't remember them.",
 	title: "Privacy",
 };
 ---
@@ -11,8 +14,8 @@ const meta = {
 	<div class="space-y-6">
 		<h1 class="title uppercase">Respect</h1>
 		<p>
-			Im like a vault. Your secrets are safe with me. I don't spill the beans, share emails, or your
-			enquieries, they are like they were from Mr. Anonymous himself.
+			I'm like a vault. Your secrets are safe with me. I don't spill the beans, share emails, or
+			your enquieries, they are like they were from Mr. Anonymous himself.
 		</p>
 
 		<p>
@@ -45,5 +48,13 @@ const meta = {
 			keep it serene and secure. 🌿
 		</p>
 		<p>So, feel free to share, reflect, or just chill out. This island's all yours, dude.</p>
+
+		<p class="text-2xl">Here is the sensory portal key to our party wave.</p>
+
+		<div class="flex w-20 justify-center">
+			<Image alt="Pass on the good vibes dude!" fetchpriority="high" loading="eager" src={qr} />
+		</div>
+
+		<p class="text-2xl">Get your buddies to scan it!</p>
 	</div>
 </PageLayout>

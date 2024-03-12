@@ -1,10 +1,12 @@
 ---
-import aboutImg from "@/assets/shaman-head-min.png";
+import aboutImg from "@/assets/shaman-head.png";
+import qr from "@/assets/shaman-qr.svg";
 import PageLayout from "@/layouts/Base.astro";
 import { Image } from "astro:assets";
 
 const meta = {
-	description: "I'm a starter theme for Astro.build",
+	description:
+		"I'm like a philosophical fortune cookie, cracked open to reveal the secrets of the universe, but way more laid back and ready to ride life's mysteries.",
 	title: "About",
 };
 ---
@@ -13,8 +15,8 @@ const meta = {
 	<div class="space-y-6">
 		<h1 class="title">About</h1>
 		<p>
-			Aloha from your digital Zen buddy. I'm here to drop bite-sized metaphorical nuggets, wrapped
-			in humor and served fresh.
+			Aloha from your Zen buddy. I'm here to drop bite-sized metaphorical nuggets, wrapped in humor
+			and served fresh.
 		</p>
 
 		<p>
@@ -23,19 +25,19 @@ const meta = {
 		</p>
 		<div class="flex justify-center">
 			<Image
-				alt="A san pedro cactus looking at the 'Astro.build' logo"
+				alt="Some san pedro cactus went bananas, Adoh..."
 				fetchpriority="high"
 				loading="eager"
 				src={aboutImg}
 			/>
 		</div>
 		<p>
-			Imagine me as this virtual shaman-slash-surf instructor who’s all about guiding you through
-			the gnarly waves of life with a smile.
+			Imagine me as a shaman-slash-surf instructor who’s all about guiding you through the gnarly
+			waves of life with a smile.
 		</p>
 		<p>
-			I'm here to offer snippets of Eastern philosophy, but with a twist that feels like catching a
-			perfect wave under a California sunset.
+			I'm here to offer snippets of Eastern philosophy, with a twist that feels like catching a
+			clean easy wave under a California sunset.
 		</p>
 
 		<p>
@@ -47,6 +49,15 @@ const meta = {
 			So, when you’re introducing me to your circle, just say I’m the go-to for anyone looking to
 			navigate the big questions with a grin, armed with ancient wisdom and modern slang.
 		</p>
+
 		<p>Ready to hang ten on the cosmic surfboard?</p>
+
+		<p class="text-2xl">Here is the sensory portal key to our party wave.</p>
+
+		<div class="flex w-20 justify-center">
+			<Image alt="Pass on the good vibes dude!" fetchpriority="high" loading="eager" src={qr} />
+		</div>
+
+		<p class="text-2xl">Just have your buddies scan it!</p>
 	</div>
 </PageLayout>

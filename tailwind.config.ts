@@ -117,7 +117,7 @@ export default {
 		plugin(function ({ addComponents }) {
 			addComponents({
 				".title": {
-					"@apply text-2xl font-semibold": {},
+					"@apply text-2xl": {},
 				},
 			});
 		}),

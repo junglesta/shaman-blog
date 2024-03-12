@@ -2,7 +2,7 @@
 title: "My boyfriend said that we need to align our chakras, how?"
 description: "Align your chakras, chill and vibe together like avocado on toast! Think yoga, meditate, hug a tree or two. Your chakras will be high-fiving in no time!"
 publishDate: "18 sep 2023"
-tags: ["chakras", "chill", "vibe", "together", "soul", "meditation"]
+tags: ["chakras", "chill", "vibes", "together", "soul", "meditation"]
 ---
 
 ## TLDR

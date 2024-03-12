@@ -5,14 +5,14 @@ const url = new URL(Astro.request.url);
 ---
 
 <header class="group relative mb-28 flex items-center" id="main-header">
-	<div class="flex sm:flex-col">
+	<div class="mr-[-8px] flex sm:flex-col">
 		<a
 			aria-current={url.pathname === "/" ? "page" : false}
-			class="inline-flex items-center hover:saturate-200 sm:relative sm:inline-block"
+			class="inline-flex items-center hover:saturate-200"
 			href="/"
 		>
 			<svg
-				class="logo hamsa"
+				class="logo hamsa sm-pb-0 md:pb-2"
 				aria-hidden="true"
 				focusable="false"
 				xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const url = new URL(Astro.request.url);
 					></path>
 				</g>
 			</svg>
-			<span class="text-3xl font-bold uppercase">Shaman Monster</span>
+			<span class="text-3xl uppercase md:text-5xl">Shaman Monster</span>
 		</a>
 	</div>
 	<Search />
