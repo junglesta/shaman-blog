@@ -14,13 +14,13 @@ const postDate = post.data.updatedDate ?? post.data.publishDate;
 
 <Tag>
 	{post.data.draft && <span class="text-red-500">(Draft) </span>}
-	<a class="cactus-link" data-astro-prefetch href={`/posts/${post.slug}/`}>
-		<span class="text-2xl uppercase">{post.data.title}</span>
+	<a class="hover:saturate-200" data-astro-prefetch href={`/posts/${post.slug}/`}>
+		<span class="text-2xl uppercase text-accent hover:saturate-100">{post.data.title}</span>
 		{
 			withDesc && (
 				<>
-					<q class="line-clamp-3 block ">{post.data.description}</q>
-					<span class="italic text-accent">Learn more →</span>
+					<q class="line-clamp-3 block hover:opacity-75">{post.data.description}</q>
+					<span class="italic text-accent hover:saturate-200	">Learn more →</span>
 				</>
 			)
 		}

@@ -9,7 +9,7 @@ tags: ["silence", "meditation", "breath", "thoughts", "monkeys", "chill"]
 
 Bro, it's like trying to silence the monkeys at a banana festival. Just let them party till they're all partied out. Meditation's your invite to chill on the side, sipping your coconut water.
 
-### DEEP GUIDANCE
+## DEEP GUIDANCE
 
 Imagine your mind's like a wild beach party with every thought as a partygoer. Now, meditation is not about kicking everyone out; it's more like being the cool host who's not bothered by the noise. You're just there, enjoying the vibe, not trying to control the playlist or the guest list.
 
@@ -19,7 +19,7 @@ With practice, you'll find those noisy thoughts turning down their volume, not b
 
 And hey, if your mind starts planning your next meal in the middle of meditation, just chuckle and guide it back to your breath. It's all part of the journey. Keep it light and fun, dude. Ready to catch the next wave of wisdom?
 
-### DEEPER GUIDANCE
+## DEEPER GUIDANCE
 
 So, think of your mind as a super busy skatepark. Every skateboarder is a thought, doing tricks and flips, constantly moving. The trick isn't to empty the park; it’s learning to sit on the sidelines, watching the action without needing to jump in and ride every board.
 

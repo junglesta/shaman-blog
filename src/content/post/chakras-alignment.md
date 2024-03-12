@@ -9,7 +9,7 @@ tags: ["chakras", "chill", "vibe", "together", "soul", "meditation"]
 
 To align your chakras, you both gotta chill and vibe together like avocado on toast! Think yoga, meditate, and maybe hug a tree or two. Your chakras will be high-fiving in no time!
 
-### DEEP FOCUS
+## DEEP FOCUS
 
 Imagine your chakras as the ultimate playlist, from the deep bass at your roots to the high notes at your crown. To get them all in harmony, start with some yoga to stretch and connect with your body—like tuning your instrument. Then, dive into meditation, where you focus on each chakra, envisioning colors and feeling the vibes, kinda like adjusting your graphic equalizer to get that perfect sound.
 

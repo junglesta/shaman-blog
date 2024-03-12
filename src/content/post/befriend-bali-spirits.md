@@ -9,7 +9,7 @@ tags: ["Bali", "spirits", "friend", "gratitude"]
 
 To befriend Bali's spirits, first chill with respect, ya know? Like, show some love to the local culture and nature, dude. Offer a smile to the sea, a nod to the trees, and maybe a little offering of flowers or fruits. It's all about good vibes and harmony. Plus, learning a bit of Balinese customs won't hurt. Remember, it's like catching a wave – go with the flow, and the spirits will feel your stoke.
 
-### DEEP DIVE
+## DEEP DIVE
 
 Alright, let's dive deeper into the spirit world of Bali, like a surfer catching the big one at Uluwatu. Bali is rich in spiritual essence, deeply intertwined with the daily life of its people through rituals, ceremonies, and offerings known as "Canang sari." These small, colorful offerings made from palm leaves, flowers, and sometimes food, are left all over the island as a sign of gratitude to the spiritual world and to maintain balance between humans, nature, and the divine.
 

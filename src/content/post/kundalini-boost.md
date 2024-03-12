@@ -9,7 +9,7 @@ tags: ["natural", "trip", "kundalini", "wisdom", "stoked", "chill"]
 
 Bro, just chill with a bowl of edamame or munch on some almonds. Nature's protein bars, no gym bro's subscription needed!
 
-### DEEP DIVE
+## DEEP DIVE
 
 Alright, my cosmic surfer, diving deeper into the cosmic ocean of protein wisdom. Imagine your male kundalini as this energetic surfer, riding the waves of life's energy. Now, this surfer dude needs some serious fuel to keep the vibes high and the rides smooth. We're talking about protein, but not just any kind. Think of clean, plant-based proteins like lentils, chickpeas, and quinoa. These are like the wax for your surfboard, keeping your spiritual journey smooth and grippy.
 

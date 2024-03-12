@@ -9,7 +9,7 @@ tags: ["bali", "ubud", "yoga", "monkeys", "chill", "zen", "meditation"]
 
 To get that Ubud state of mind, chill like a rice terrace in the Balinese sun. Imagine you're sipping coconut water, your mind's as calm as a slow-moving river in the jungle. It's all about embracing the zen vibes and letting go of the rush-rush. Less is more, bro. Meditate, go with the flow, and maybe do some yoga with the monkeys. 🌴😌
 
-### DEEP DIVE
+## DEEP DIVE
 
 Think of your mind like a rice paddy, dude. It needs peace, space, and a bit of nurture. Start by slowing down your pace. Life isn't a race, it's more like a leisurely stroll through a forest.
 
