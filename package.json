@@ -1,6 +1,6 @@
 {
 	"name": "shamanblog",
-	"version": "0.7.0",
+	"version": "0.7.1",
 	"private": false,
 	"scripts": {
 		"dev": "astro dev",
@@ -16,7 +16,7 @@
 		"@astrojs/rss": "4.0.5",
 		"@astrojs/sitemap": "3.1.1",
 		"@astrojs/tailwind": "5.1.0",
-		"astro": "4.4.15",
+		"astro": "4.5.2",
 		"astro-expressive-code": "^0.33.4",
 		"astro-icon": "^1.1.0",
 		"rehype-external-links": "^3.0.0",
@@ -32,8 +32,8 @@
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/eslint": "^8.56.5",
-		"@typescript-eslint/eslint-plugin": "^7.1.1",
-		"@typescript-eslint/parser": "^7.1.1",
+		"@typescript-eslint/eslint-plugin": "^7.2.0",
+		"@typescript-eslint/parser": "^7.2.0",
 		"astro-eslint-parser": "^0.16.3",
 		"autoprefixer": "^10.4.18",
 		"eslint": "^8.57.0",
