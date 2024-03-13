@@ -2,7 +2,7 @@
 title: "Integrate kundalini life force activation being a woman?"
 description: "Ah, integrative kundalini life force activation? Sounds like you're trying to start an ancient cosmic engine without the manual."
 publishDate: "10 mar 2024"
-tags: ["kundalini", "breath", "yoga", "mind's eye", "cosmic", "awakening", "chakras"]
+tags: ["kundalini", "breath", "yoga", "mind's eye", "cosmic", "awakening", "chakras", "enjoy"]
 ---
 
 ## TLDR

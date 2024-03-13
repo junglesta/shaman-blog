@@ -2,7 +2,7 @@
 title: "My man told that i should connect and address emotional experiences through the body, how?"
 description: "Your boyfriend's talking about doing the cha-cha with your feelings, lah."
 publishDate: "8 mar 2024"
-tags: ["chill", "breath", "therapy", "emotional", "yoga"]
+tags: ["chill", "breath", "therapy", "thoughts", "emotional", "yoga"]
 ---
 
 ## TLDR

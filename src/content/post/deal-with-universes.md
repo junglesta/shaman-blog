@@ -2,7 +2,7 @@
 title: "Deal with Universes responding to every thought, how?"
 description: "Like, imagine the universe is a super chill DJ, always spinning tracks based on your vibe. The trick? Keep your inner playlist upbeat, dude."
 publishDate: "5 dec 2023"
-tags: ["universe", "mindful", "gratitude", "vibes", "zen", "chill"]
+tags: ["universe", "mindful", "gratitude", "thoughts", "vibes", "zen", "chill"]
 ---
 
 ## TLDR
