@@ -32,7 +32,7 @@ In Chinese medicine, it’s less about calories and more about the energy and pr
 
 It’s like choosing between a chili pepper and a cucumber based on the weather inside your body.
 
-Remember, Chinese medicine is all about the long game; it's more marathon than sprint. It values prevention, so don't wait till you're feeling like a broken down car to start.
+Remember, Chinese medicine is all about the long game. It's more marathon than sprint. It values prevention, so don't wait till you're feeling like a broken down car to start.
 
 And always consult with a professional to avoid turning yourself into a human science experiment.
 

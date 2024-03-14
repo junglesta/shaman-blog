@@ -3,7 +3,6 @@ title: "How to heal myself thru the Vital Force?"
 description: "Tapping into the Vital Force, huh? Imagine it's like charging your phone with cosmic energy instead of a power bank. You gotta keep your vibes high."
 publishDate: "13 mar 2024"
 tags: ["vibes", "heal", "thoughts", "cosmic", "energy", "zen"]
-draft: true
 ---
 
 ## TLDR

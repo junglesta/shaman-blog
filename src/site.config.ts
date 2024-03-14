@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
 	},
 };
 
-// Used to generate links in both the Header & Footer.
+// Used to generate links in Footer.
 export const menuLinks: Array<{ title: string; path: string }> = [
 	{
 		title: "Home",
