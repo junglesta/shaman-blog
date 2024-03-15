@@ -1,7 +1,7 @@
 ---
 title: "What's something you wish was socially acceptable?"
 description: "Wearing pajamas all day, every day, bro. Imagine the freedom, the utter joy of attending a meeting in your dino PJs. That's enlightenment in fabric form."
-publishDate: "07 mar 2024"
+publishDate: "2 mar 2024"
 tags: ["acceptance", "comfort", "transcend", "authenticity"]
 ---
 

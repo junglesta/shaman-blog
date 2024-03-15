@@ -2,7 +2,18 @@
 title: "How do I enhance my soul?"
 description: "Enhance your soul... Just like updating your phone, but with meditation apps and kindness software. Got enough soul RAM for that?"
 publishDate: "18 nov 2023"
-tags: ["soul", "emotional", "gratitude", "thoughts", "kindness", "laugh", "stoked", "meditation"]
+tags:
+  [
+    "soul",
+    "emotional",
+    "gratitude",
+    "thoughts",
+    "kindness",
+    "laugh",
+    "stoked",
+    "meditation",
+    "spiritual",
+  ]
 ---
 
 ## TLDR

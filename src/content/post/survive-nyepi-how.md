@@ -2,7 +2,7 @@
 title: "How do I survive Bali Nyepi day, the day of silence?"
 description: "For Nyepi, just chill like a silent movie star—no talking, no lights, and pretend the internet doesn't exist. It's like a reboot for your soul, bro!"
 publishDate: "09 Mar 2024"
-tags: ["bali", "nyepi", "chill", "self-reflection", "oblivion", "silence", "zen", "meditation"]
+tags: ["bali", "nyepi", "chill", "reflection", "oblivion", "silence", "zen", "meditation"]
 ---
 
 ## TLDR

@@ -1,9 +1,8 @@
 ---
 title: "Use Chinese medicine for health and wellbeing, how?"
 description: "Ah, Chinese medicine, like making tea with ingredients that look like they belong in a witch's pantry, right? It’s all about balancing body’s energy, or qi... "
-publishDate: "14 mar 2024"
+publishDate: "7 mar 2024"
 tags: ["acupuncture", "heal", "therapy", "prevention", "food", "energy"]
-draft: true
 ---
 
 ## TLDR

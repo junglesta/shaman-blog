@@ -2,7 +2,7 @@
 title: "How to protest against my given destiny?"
 description: "Ah, wanna surf against the cosmic current, yeah? Just like trying to skateboard uphill during a typhoon."
 publishDate: "05 mar 2024"
-tags: ["destiny", "joy", "friends", "different", "gentle"]
+tags: ["destiny", "joy", "friends", "spiritual", "gentle"]
 ---
 
 ## TLDR
