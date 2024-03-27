@@ -1,7 +1,7 @@
 ---
 title: "How do i befriend the spirits that live in Bali?"
 description: "To befriend Bali's spirits, first chill with respect, ya know? Like, show some love to the local culture and nature, dude."
-publishDate: "01 nov 2023"
+publishDate: "01 gen 2022"
 tags: ["Bali", "spirits", "friend", "people", "gratitude", "spiritual"]
 ---
 
